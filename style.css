@@ -1,14 +1,25 @@
+
 html {
-  background: url(assets/bg.jpg) no-repeat fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/bg.jpg) no-repeat fixed;
+
+/* TODO: need to get background opacity straight */
 }
 
 
 body {
-  width: 100%;
+  width:100%;
+  height: 4000px;
+}
 
+div {
+  width: 100%
+}
+
+.page-wrapper {
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
 }
 
 ul li {
@@ -19,46 +30,41 @@ ul {
   list-style-type: none;
 }
 
-header {
-  display:inline-block;
-  max-width: 70.8%;
-  height: 50px
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  list-style-type: none;
-}
-
-.topHeader {
-  display:inline-block;
+.top-page {
   float: right;
-  width: 50%;
-  font-size: 1vmax;
+  width: 100%;
+  text-align: right;
 }
 
-.topHeader div {
-  display: block;
-  height: auto;
+.top-header {
+  display:inline-block;
+  width: 50%;
+  float: right;
+  font-size: 1vmax;
+  margin-right: 1.2%;
 }
+
 
 .subscribe {
   display: inline-block;
   float: left;
-  max-width: 20%;
+  width: 20%;
   list-style-type: none;
+  margin-top: 1.5%;
+  margin-left: 5%;
+
 }
 
-.subscribe div {
-  margin: 5%x;
-  height: auto;
+.subscribe p {
+
 }
+
 
 .subscribe a {
   display: inline-block;
   text-decoration: none;
   color: white;
   font-size: 1.5vmax;
-  margin-top: auto;
 }
 
 .subscribe:hover a {
@@ -71,12 +77,11 @@ header {
 .socialMedia {
   display: inline-block;
   float: right;
-  max-width: 70%;
+  width: 70%;
 }
 
 .socialMedia ul li {
   display: inline-block;
-  width: auto;
 }
 
 .socialMedia ul {
@@ -86,9 +91,8 @@ header {
 }
 
 .socialMedia li {
+  display: inline-block;
   margin: 2px;
-  font-size: 40px;
-  width: auto;
   font-size: 4vmax;
 }
 
@@ -169,119 +173,106 @@ header {
   font-size: 5vmax;
 }
 
-nav {
-  display:inline-block;
-  max-width: 70%;
-  height: 40px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-nav ul{
-  display: inline-block;
-  list-style-type: none;
-  width: 100%;
-}
 
 .navBar {
-  width: 70%;
+  width: 100%;
+  max-height: 45px;
   display: inline-block;
   height:auto;
   margin-left: auto;
-  margin-right: auto;
-  align-content: center;
+}
+
+.navBar div {
+  width: 100%;
+  max-height: 30px;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 .navBar ul {
-  width: 100%;
-  display:block;
-  list-style-type: none;
-  height: auto;
   text-align: center;
+  width: 100%;
+  display:inline-block;
   padding: 0;
-  align-items: center;
+  margin: auto;
+
 }
 
-#navboxes {
-  display: inline-block;
-  width: 23%;
+#navBoxes {
+
+  max-width: 100%;
   text-align: center;
+  margin:  auto;
 }
 
-#navboxes ul p {
-  display: inline-block;
-  padding: 0px;
-  width: 100%;
-
-}
 
 .navBar li {
   display: inline-block;
-  height: 20px;
-  width: 23%;
-  padding:4px;
-  padding-top: 8px;
+  width: 22%;
+  padding: .9%;
   background-color: #B80000;
   text-align: center;
   color: white;
-  font-size: 1vmax;
-  vertical-align: middle;
-  margin-left: auto;
-  margin-right: auto;
-  opacity: .8;
-
-
+  font-size: 1.3vmax;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  height: auto;
 }
 
 .navBar li:hover {
 
   display: inline-block;
-  height:;
   background-color: #B80000;
   text-align: center;
   padding:1%;
   color: black;
-  font-size: 1.2vmax;
-  opacity: 1;
+  opacity: .6;
 
 }
 
 #scrollBanner {
-width: 100%;
-}
-
-.scrollBanner {
-  width:70%;
-  height: 200px;
-  background: url(assets/top-image.png) no-repeat;
-  background-position: top 3%;
-  background-size: 900px 500px;
+  background:url(assets/top-image.png) no-repeat;
+  width: 96%;
+  height:100%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 1%;
+  background-size: 150%;
+  background-position: -60px -80px;
+  bottom: 10%;
   border: 5px solid white;
 
 }
-.grid {
-  background: url(/assets/grid.png);
+
+.scrollBanner {
   width: auto;
-  height: 200px;
+  max-height: 170px;
+  background: url(assets/grid.png);
   opacity: .2;
+
+}
+
+
+#logo {
+  display:block;
+  margin-left: 1%;
+  width: 45%;
+  max-height: 170px;
   list-style-type: none;
   position: relative;
   top: 0;
+
 }
 
-.logo img {
-  margin-left: 1%;
-  width: 35%;
-  height: auto;
-  opacity: 2;
-
+.grid {
+  max-height: 170px;
 }
 
 #dots {
+
   width: 100%
-  clearfix:all;
 }
 
 #dots ul {
@@ -297,8 +288,7 @@ width: 100%;
   width: auto;
   display: inline-block;
   list-style-type: none;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   color: white;
   margin: .5%;
 
@@ -311,27 +301,255 @@ width: 100%;
 }
 
 .news {
-  width: 72.6%;
-  margin-left: auto;
-  margin-right: auto;
-  height: 150px;
+  width: 100%;
+  height: 100%;
   font-size: 1vmax;
+  margin-bottom: 1vmax;
 }
 
 .news aside {
   display: inline-block;
-  margin: 1%;
   background-color: white;
+  max-width: 32%;
+  text-align: left;
+}
+
+.news div {
+  width: 85%;
+  margin: auto;
+  font-size: 1.1vmax;
 }
 
 .article1 {
-  width: 30.9%
+  float: left;
 }
 
-.article2 {
-  width: 30.9%
+.article3  {
+  float: right;
 }
 
-.article3 {
-  width: 30.9%
+.news p {
+  line-height: 23px;
+}
+
+.bio-blocks {
+  display: inline-block;
+  margin-top: 3vmax;
+  width: 100%;
+  height: 180px;
+}
+
+.skaters {
+  width: 100%;
+  height: 100%;
+}
+
+.lance-rodney {
+  height: 46.5%;
+  display: inline-block;
+  margin-bottom: 2%;
+}
+
+.lance-rodney-steve {
+  display: inline-block;
+  width: 66%;
+  height: 100%;
+  float: left;
+
+}
+
+.lance {
+  background: url(assets/sk8er-4.png);
+  background-size: 140%;
+  background-position: -70px ;
+  width: 47.5%;
+  border: 3px solid white;
+  display: inline-block;
+  height:100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+
+.lance-background {
+  height: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lance p {
+font-size: 2.6vmax;
+font-weight: bolder;
+color: white;
+}
+
+.rodney {
+  background: url(assets/sk8er-3.png);
+  background-size: 120%;
+  background-position: ;
+  width: 47.5%;
+  height: 100%;
+  border: 3px solid white;
+  float: right;
+}
+
+.rodney-background {
+  height: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rodney p {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2.6vmax;
+  font-weight: bolder;
+  color: white;
+}
+
+.steve {
+  background: url(assets/sk8er-1.png);
+  background-size: 110%;
+  background-position: 0 -73px;
+  width: 98.9%;
+  height: 46.5%;
+  width: 100%
+  display: block;
+  border: 3px solid white;
+}
+
+.steve-background {
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.steve p {
+  text-align:center;
+  font-size: 2.5vmax;
+  font-weight: bolder;
+  color: white;
+}
+
+.tommy {
+  background: url(assets/sk8er-2.png) no-repeat;
+  background-size: 275%;
+  background-position: 80%;
+  width: 31.3%;
+  height: 100%;
+  border: 3px solid white;
+  float: right;
+
+
+
+}
+
+.center-tommy {
+  display: block;
+  height: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.tommy p {
+  text-align: center;
+  font-size: 2.6vmax;
+  font-weight: bolder;
+  color: white;
+  height: 100%;
+}
+
+.skate-boards {
+  background-color: white;
+  display: inline-block;
+  width:2000px;
+  height: 100%;
+  overflow: hidden;
+  margin-top: 7%;
+
+}
+
+.skate-boards img {
+  margin: 1%;
+  display: inline-block;
+
+}
+
+.skate-boards img:hover {
+  width:
+
+}
+
+
+* (margin:0; padding:0;)
+
+.photo-banner {
+  height: 233px;
+  width: 2400px;
+  margin-bottom: 80px;
+
+}
+
+.first-board {
+    -webkit-animation: bannermove 10s linear infinite;
+       -moz-animation: bannermove 10s linear infinite;
+        -ms-animation: bannermove 10s linear infinite;
+         -o-animation: bannermove 10s linear infinite;
+            animation: bannermove 10s linear infinite;
+}
+
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -1600px;
+ }
+}
+
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 400px;
+ }
+ 100% {
+   margin-left: -2300px;
+ }
+
+}
+
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: -300px;
+ }
+ 100% {
+   margin-left: -2440px;
+ }
+
+}
+
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2300px;
+ }
+
+}
+
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2300px;
+ }
+
 }
