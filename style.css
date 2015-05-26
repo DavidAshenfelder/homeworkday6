@@ -2,10 +2,10 @@
 html {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(assets/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-background-position: top;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: top;
 
 
 /* TODO: add links to youtube videos in bio blocks*/
@@ -16,7 +16,10 @@ background-position: top;
 
 }
 
-
+* {  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 
 body {
@@ -136,7 +139,7 @@ ul {
   background-position: bottom;
   border-radius: 5px;
   opacity: 1;
-  font-size: 4.5vmax;
+
 }
 
 #rss-square {
@@ -154,7 +157,6 @@ ul {
     background-position: bottom;
     border-radius: 5px;
     opacity: 1;
-    font-size: 4.5vmax;
 }
 
 #twitter-square {
@@ -172,7 +174,6 @@ ul {
   background-position: bottom;
   border-radius: 5px;
   opacity: 1;
-  font-size: 4.5vmax;
 }
 
 #youtube-square {
@@ -189,24 +190,17 @@ ul {
   background-position: bottom;
   border-radius: 5px;
   opacity: 1;
-  font-size: 4.5vmax;
 }
 
 
 
 .navBar {
   width: 100%;
-  max-height: 45px;
   display: inline-block;
-  height:auto;
-  margin-left: auto;
 }
 
 .navBar div {
   width: 100%;
-  max-height: 30px;
-  margin-top: 10px;
-  margin-bottom: 15px;
 }
 
 .navBar ul {
@@ -214,7 +208,7 @@ ul {
   width: 100%;
   display:inline-block;
   padding: 0;
-  margin: auto;
+  margin: 0;
 
 }
 
@@ -223,16 +217,16 @@ ul {
 .navBar li {
   display: inline-block;
   width: 22%;
-  padding: .9%;
+  padding: .8%;
+  margin: .8%;
   background-color: #B80000;
   text-align: center;
   color: white;
-  font-size: 1.3vmax;
+  font-size: 1.2vmax;
   opacity: 1;
   position: relative;
   top: 0px;
   height: auto;
-  border-bottom: 3px solid grey;
 }
 
 .navBar li:hover {
@@ -243,7 +237,6 @@ ul {
   color: grey;
   opacity: .7;
   font-weight: bold;
-  border-bottom: 3px solid grey;
 
 }
 
@@ -297,7 +290,8 @@ ul {
 
 
 #dots li{
-  width: 3%;
+  width: 3.5%;
+  height: auto;
   display: inline-block;
   list-style-type: none;
   margin: .8%;
@@ -326,6 +320,7 @@ ul {
   background-color: white;
   width: 32%;
   text-align: left;
+  box-shadow: 0px 0px 4px 0px grey;
 }
 
 .news div {
@@ -337,7 +332,7 @@ ul {
 
 .article1 {
   float: left;
-  border-bottom: 3px solid grey;
+  box-shadow: 0px 0px 3px 0px solid grey;
   width: 100%;
   display: inline-block;
 }
@@ -428,18 +423,12 @@ ul {
   color: #505050;
 }
 
-/* .drop-article:before,
-.drop-article:after {
-    content: " ";
-    display: table;
-}
- */
 
 .bio-blocks {
   display: inline-block;
   margin-top: 3vmax;
   width: 100%;
-  height: 180px;
+  height: 300px;
 }
 
 .skaters {
@@ -448,9 +437,8 @@ ul {
 }
 
 .lance-rodney {
-  height: 46.5%;
+  height: 49%;
   display: inline-block;
-  margin-bottom: 2%;
 }
 
 .lance-rodney-steve {
@@ -459,33 +447,29 @@ ul {
   height: 100%;
   float: left;
 
+
 }
 
 .lance {
-  background: url(assets/sk8er-4.png);
-  background-size: 140%;
-  background-position: -70px ;
-  width: 47.5%;
+  background: url(assets/sk8er-4.png) no-repeat;
+  background-size: cover;
+  width: 48.5%;
   border: 3px solid white;
-  display: inline-block;
+  display: flex;
   height:100%;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
   float: left;
+  align-items: center;
+  justify-content: center;
 }
 
 .lance-background {
-  height: 111%;
-  width: 112%;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  border-bottom: 3px solid grey;
+  background-size: cover;
 }
 
 .lance-background p:hover {
   opacity: .1;
+  align-items: center;
+  justify-content: center;
 }
 
 .lance p {
@@ -496,21 +480,14 @@ color: white;
 
 .rodney {
   background: url(assets/sk8er-3.png);
-  background-size: 120%;
-  background-position: ;
-  width: 47.5%;
+  background-size: cover;
+  width: 48.5%;
   height: 100%;
   border: 3px solid white;
   float: right;
-}
-
-.rodney-background {
-  height: 103.5%;
-  width: 100%;
-  display: inline-flex;
-  justify-content: center;
+  display: flex;
   align-items: center;
-  border-bottom: 3px solid grey;
+  justify-content: center;
 }
 
 .rodney-background p:hover {
@@ -527,22 +504,13 @@ color: white;
 
 .steve {
   background: url(assets/sk8er-1.png);
-  background-size: 110%;
-  background-position: 0 -73px;
-  width: 98%;
-  height: 46.5%;
-  width: 100%
-  display: block;
-  border: 3px solid white;
-}
-
-.steve-background {
-  height: 103%;
+  background-size: cover;
   width: 100%;
-  display: inline-flex;
+  height: 49%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 3px solid grey;
+  border: 3px solid white;
 }
 
 .steve-background p:hover {
@@ -554,31 +522,25 @@ color: white;
   font-size: 2.5vmax;
   font-weight: bolder;
   color: white;
+  border-top: .5%;
 }
 
 .tommy {
   background: url(assets/sk8er-2.png) no-repeat;
-  background-size: 275%;
+  background-size: cover;
   background-position: 80%;
-  width: 31.3%;
-  height: 98%;
+  width: 32%;
+  height: 100%;
   border: 3px solid white;
   float: right;
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 
 .tommy-background p:hover {
   opacity: .1;
-}
-
-.center-tommy {
-  display: block;
-  height: 101.7%;
-  width: 102%;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  border-bottom: 3px solid grey;
 }
 
 
@@ -597,7 +559,6 @@ color: white;
   height: 100%;
   overflow: hidden;
   margin-top: 7%;
-  border-bottom: 3px solid grey;
 
 }
 
@@ -732,7 +693,7 @@ color: white;
 }
 
 .email-form p {
-  display: inline-block;
+
   width: 100%;
   text-align: left;
 }
@@ -783,31 +744,57 @@ color: white;
   width: 65%;
   height: 2vmax;
   color: grey;
-  margin: 0;
 
 }
 
 @media (max-width:600px) {
 
-  .socialMedia /* NOTE: media */ {
+  .top-header /* NOTE: media */{
+      display:block;
+      width: 100%;
+      font-size: 1vmax;
+      margin-right: 0 auto;
+
+  }
+
+  .socialMedia /* NOTE: media */ ul {
+      display: inline-block;
+      width: 100%;
+      float: none;
+      text-align: center;
+      font-size: 3vmax;
+  }
+
+  .socialMedia li {
+    font-size: 7vmax;
+  }
+
+  .socialMedia li:hover {
+    font-size: 7vmax;
+  }
+
+  .socialMedia {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+
+  .subscribe /* NOTE: media */ p{
       width: 100%;
       float: none;
       text-align: center;
   }
 
-
-  .subscribe /* NOTE: media */{
-      display: flex;
-      float: left;
-      width: 20%;
-      text-align: center;
+  .subscribe a {
+    font-size: 3vmax;
   }
 
-  .top-header /* NOTE: media */{
-      display:inline-flex;
-      width: 100%;
-      font-size: 1vmax;
-      margin-right: 1.2%;
+  .subscribe {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
   }
 
   .navBar ul li /* NOTE: media */ {
@@ -817,10 +804,10 @@ color: white;
     color: white;
     font-size: 3vmax;
     opacity: 1;
+    margin: 1%;
   }
 
   .navBar /* NOTE: media */ {
-    margin-bottom: 15%;
     height: 100%;
   }
 
@@ -840,10 +827,11 @@ color: white;
   }
 
   #logo {
-    display:inline-flex;
+    display: inline-block;
     max-height: 170px;
     width: 80%;
     list-style-type: none;
+
   }
 
   .news aside /* NOTE: media */{
@@ -857,6 +845,7 @@ color: white;
     width: 100%;
     float: none;
     font-size: 5vmax;
+    margin: 2%;
   }
 
   .article1 p {
@@ -878,6 +867,7 @@ color: white;
     display: inline-block;
     width: 100%;
     float: none;
+    margin: 2%;
   }
 
   .article2 p {
@@ -898,7 +888,8 @@ color: white;
   .article3 /* NOTE: media */ {
     display: inline-block;
     float: none;
-    width: 100%
+    width: 100%;
+    margin: 2%;
   }
 
   .article3 p {
@@ -920,34 +911,42 @@ color: white;
     display:inline-block;
     margin-top: 3vmax;
     width: 100%;
-    height: 200px;
-    margin-bottom: 20%;
+    height: auto;
+    margin-bottom: 5%;
   }
 
   .skaters {
-    display: inline-block;
-    width: 97%;
+    width: 100%;
     height:100%;
-    margin-bottom: 20%;
-    display: inline-flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .lance-rodney {
+    width: 100%;
+    height: 100%;
+  }
+
+  .lance-rodney-steve {
+    width: 100%;
+    display: inline-grid;
   }
 
 
   .lance {
     width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-position: 0px -50px;
     border: 3px solid white;
     display:inline-block;
     float: none;
     margin-bottom: auto;
     justify-content: none;
     align-items: none;
+    margin-bottom: 1%;
   }
 
-  .lance-background {
-    border: none;
-  }
 
   .lance p {
     font-size: 4.7vmax;
@@ -955,11 +954,13 @@ color: white;
   }
 
   .rodney {
+    background-size: 100%;
+    background-position: 0px -50px;
     width: 100%;
     height: 100%;
     border: 3px solid white;
     float: none;
-    display:inline-block;
+    margin-bottom: 1%;
   }
 
   .rodney-background {
@@ -972,15 +973,16 @@ color: white;
 
 
   .steve {
-    position: relative;
-    top: 18%;
-    width: 147.5%;
-    display: inline-block;
+    background-size: 100%;
+    background-position: 0px -100px;
+    width: 100%;
     border: 3px solid white;
+    margin-bottom: 1%;
   }
 
   .steve-background {
     border: none;
+
   }
 
   .steve p {
@@ -989,12 +991,11 @@ color: white;
 
 
   .tommy {
-    background-size: 395%;
-    background-position: 80%;
-    display:inline-block;
+    background-size: 100%;
     border: 3px solid white;
     float: right;
-    height: 97%;
+    height: auto;
+    width: 100%;
   }
 
   .center-tommy {
@@ -1005,7 +1006,9 @@ color: white;
     font-size: 4.7vmax;
   }
 
-
+  .skate-boards {
+    margin: 0 auto;
+  }
 
   .contact-us {
     background-color: white;
@@ -1029,6 +1032,10 @@ color: white;
     background-color: white;
   }
 
+  .contact-us-par p ul li {
+    font-size: 6vmax;
+  }
+
   .contact-us-par h1 {
     font-size: 4vmax;
   }
@@ -1050,35 +1057,34 @@ color: white;
     height: 100%;
     margin: 1%;
     display: inline-block;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     font-size: 3vmax;
 
   }
 
   .email-form div {
-    display: inline-block;
     width: 100%;
     height: auto;
-    text-align: center;
+    text-align: left;
   }
 
   .email-form p {
-    display: inline-block;
     width: 80%;
     text-align: left;
   }
 
   .name p {
-    height: 3vmax;
+    height: 4vmax;
+    text-align: left;
   }
 
   .email p {
-    height: 3vmax;
+    height: 4vmax;
   }
 
   .your-message p {
-    height: 8vmax;
+    height: 10vmax;
   }
 
 
