@@ -1,0 +1,278 @@
+@media (max-width: 600px) {
+  .top-header {
+    display: block;
+    width: 100%;
+    font-size: 1vmax;
+    margin-right: 0 auto; }
+  .socialMedia {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    ul {
+      display: inline-block;
+      width: 100%;
+      float: none;
+      text-align: center;
+      font-size: 3vmax;
+      li {
+        font-size: 7vmax; }
+        &li:hover {
+          font-size: 7vmax; }
+        }}
+
+  .subscribe {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    p {
+      width: 100%;
+      float: none;
+      text-align: center;
+      a {
+        font-size: 3vmax; }}
+    }
+
+  .navBar {
+    height: 100%;
+    .navBar ul li {
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+      color: white;
+      font-size: 3vmax;
+      opacity: 1;
+      margin: 1%;
+      &li:hover {
+        font-weight: normal;
+        font-size: 3vmax; }
+      }}
+
+  .page-wrapper {
+    width: 90%;
+    }
+
+  .grid {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+  #logo {
+    display: inline-block;
+    max-height: 170px;
+    width: 80%;
+    list-style-type: none;
+    }
+
+  .news aside {
+    width: 100%;
+    display: inline-block;
+    font-size: 5vmax;
+    }
+
+  .article1 {
+    display: inline-block;
+    width: 100%;
+    float: none;
+    font-size: 5vmax;
+    margin: 2%;
+      p {
+      font-size: 2vmax;
+      text-align: center; }
+      h1 {
+      font-size: 4vmax;
+      text-align: center; }
+      h4 {
+      font-size: 2vmax;
+      text-align: center; }}
+
+  .article2 {
+    display: inline-block;
+    width: 100%;
+    float: none;
+    margin: 2%;
+    p {
+      font-size: 2vmax;
+      text-align: center; }
+    h1 {
+      font-size: 4vmax;
+      text-align: center; }
+    h4 {
+      font-size: 2vmax;
+      text-align: center; }}
+
+  .article3 {
+    display: inline-block;
+    float: none;
+    width: 100%;
+    margin: 2%;
+    p {
+      font-size: 2vmax;
+      text-align: center; }
+    h1 {
+      font-size: 4vmax;
+      text-align: center; }
+    h4 {
+      font-size: 2vmax;
+      text-align: center; }}
+
+  .bio-blocks {
+    display: inline-block;
+    margin-top: 3vmax;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+    }
+
+  .skaters {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    }
+
+  .lance-rodney {
+    width: 100%;
+    height: 100%;
+    }
+
+  .lance-rodney-steve {
+    width: 100%;
+    display: inline-grid;
+    }
+
+  .lance {
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-position: 0px -50px;
+    border: 3px solid white;
+    display: inline-block;
+    float: none;
+    margin-bottom: auto;
+    justify-content: none;
+    align-items: none;
+    margin-bottom: 1%;
+    p {
+      font-size: 4.7vmax;
+      text-align: center; }
+      }
+
+  .rodney {
+    background-size: 100%;
+    background-position: 0px -50px;
+    width: 100%;
+    height: 100%;
+    border: 3px solid white;
+    float: none;
+    margin-bottom: 1%;
+    .rodney-background {
+      border: none; }
+    p {
+      font-size: 4.7vmax; }
+    }
+
+  .steve {
+    background-size: 100%;
+    background-position: 0px -100px;
+    width: 100%;
+    border: 3px solid white;
+    margin-bottom: 1%;
+    .steve-background {
+      border: none; }
+     p {
+      font-size: 4.7vmax; }
+    }
+
+
+  .tommy {
+    background-size: 100%;
+    border: 3px solid white;
+    float: right;
+    height: auto;
+    width: 100%;
+    .center-tommy {
+      border: none; }
+    p {
+      font-size: 4.7vmax; }
+    }
+
+  .skate-boards {
+    margin: 0 auto;
+    }
+
+  .contact-us {
+    background-color: white;
+    display: block;
+    width: 100%;
+    max-height: 500px;
+    margin-top: 5%;
+    }
+
+  .contact-us-box {
+    margin: 2%;
+    font-size: 2.5vmax;
+    }
+
+  .contact-us-par {
+    display: inline-block;
+    float: none;
+    text-align: left;
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    li {
+      font-size: 6vmax;
+      display: inline-block;
+      font-size: 4vmax;
+      }
+
+    h1 {
+      font-size: 4vmax;
+      }
+    p {
+      line-height: 3vmax;
+      color: grey; }
+    }
+
+
+
+  .email-form {
+    float: none;
+    width: 80%;
+    height: 100%;
+    margin: 1%;
+    display: inline-block;
+    align-items: left;
+    justify-content: center;
+    font-size: 3vmax;
+    div {
+      width: 100%;
+      height: auto;
+      text-align: left; }
+    p {
+      width: 80%;
+      text-align: left; }
+
+    }
+
+
+  .name p {
+    height: 4vmax;
+    text-align: left;
+    }
+
+  .email p {
+    height: 4vmax;
+    }
+
+  .your-message p {
+    height: 10vmax;
+    }
+
+  .submit p {
+    width: 40%;
+    font-size: 3vmax;
+    height: 4vmax;
+    text-align: center; } }

@@ -1,0 +1,91 @@
+
+.top-page {
+float: right;
+width: 100%;
+text-align: right; }
+
+.top-header {
+display: inline-block;
+width: 50%;
+float: right;
+font-size: 1vmax;
+margin-right: 1.2%; }
+
+.subscribe {
+display: inline-block;
+float: left;
+width: 20%;
+list-style-type: none;
+margin-top: 1.5%;
+margin-left: 5%;
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5vmax;
+
+  &:hover {
+    display: inline-block;
+    text-decoration: none;
+    color: black; }
+  }
+}
+
+
+
+.socialMedia {
+display: inline-block;
+float: right;
+width: 70%;
+
+ul {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+
+  li {
+    display: inline-block;
+    margin: 2px;
+    font-size: 4vmax;}
+
+    &li:hover {
+      font-size: 4vmax;
+      opacity: 1; }
+} }
+
+
+
+#ellipsis {
+color: white; }
+
+@include social-squares; #facebook-square {
+color: #3059D6;
+
+&:hover {
+  opacity: 1; }
+}
+
+
+@include social-squares; #rss-square {
+color: #FFAC30;
+
+&:hover {
+  opacity: 1; }
+}
+
+
+@include social-squares; #twitter-square {
+color: #19A3FF;
+
+&:hover {
+  opacity: 1; }
+}
+
+
+@include social-squares;#youtube-square {
+color: #FF0000;
+
+&:hover {
+  opacity: 1; }
+}

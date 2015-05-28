@@ -1,0 +1,128 @@
+.bio-blocks {
+  display: inline-block;
+  margin-top: 3vmax;
+  width: 100%;
+  height: 300px; }
+
+.skaters {
+  width: 100%;
+  height: 100%; }
+
+.lance-rodney {
+  height: 49%;
+  display: inline-block; }
+
+.lance-rodney-steve {
+  display: inline-block;
+  width: 66%;
+  height: 100%;
+  float: left; }
+
+.lance {
+  background: url(assets/sk8er-4.png) no-repeat;
+  background-size: cover;
+  width: 48.5%;
+  border: 3px solid white;
+  display: flex;
+  height: 100%;
+  float: left;
+  align-items: center;
+  justify-content: center; }
+
+.lance-background {
+  background-size: cover; }
+
+.lance-background p:hover {
+  opacity: .1;
+  align-items: center;
+  justify-content: center; }
+
+.lance p {
+  font-size: 2.6vmax;
+  font-weight: bolder;
+  color: white; }
+
+.rodney {
+  background: url(assets/sk8er-3.png);
+  background-size: cover;
+  width: 48.5%;
+  height: 100%;
+  border: 3px solid white;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+
+.rodney p {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2.6vmax;
+  font-weight: bolder;
+  color: white;
+
+  &p:hover {
+    opacity: .1; }
+
+  }
+
+.steve {
+  background: url(assets/sk8er-1.png);
+  background-size: cover;
+  width: 100%;
+  height: 49%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid white; }
+
+
+.steve p {
+  text-align: center;
+  font-size: 2.5vmax;
+  font-weight: bolder;
+  color: white;
+  border-top: .5%;
+
+  &p:hover {
+    opacity: .1; }
+
+  }
+
+.tommy {
+  background: url(assets/sk8er-2.png) no-repeat;
+  background-size: cover;
+  background-position: 80%;
+  width: 32%;
+  height: 100%;
+  border: 3px solid white;
+  float: right;
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+
+.tommy p {
+  text-align: center;
+  font-size: 2.6vmax;
+  font-weight: bolder;
+  color: white;
+  height: 100%;
+
+  &p:hover {
+    opacity: .1; }
+  }
+
+.skate-boards {
+  background-color: white;
+  display: inline-block;
+  width: 2000px;
+  height: 100%;
+  overflow: hidden;
+  margin-top: 7%;
+
+  img {
+    margin: 1%;
+    display: inline-block; }
+  }

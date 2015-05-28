@@ -4,12 +4,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: top;
-  /* TODO: add links to youtube videos in bio blocks*/
-  /* TODO: make articles expand on height when click read more*/
-  /* TODO: add floating side banner */
-  /* TODO: contact form */
-  /* TODO: link socialMedia */ }
+  background-position: top; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -744,3 +739,9 @@ opacity: .5;
     font-size: 3vmax;
     height: 4vmax;
     text-align: center; } }
+
+/* TODO: add links to youtube videos in bio blocks*/
+/* TODO: make articles expand on height when click read more*/
+/* TODO: add floating side banner */
+/* TODO: contact form */
+/* TODO: link socialMedia */

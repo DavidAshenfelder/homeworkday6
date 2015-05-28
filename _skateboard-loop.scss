@@ -1,0 +1,41 @@
+.photo-banner {
+  height: 233px;
+  width: 2400px;
+  margin-bottom: 80px; }
+
+.first-board {
+  -webkit-animation: bannermove 10s linear infinite;
+  -moz-animation: bannermove 10s linear infinite;
+  -ms-animation: bannermove 10s linear infinite;
+  -o-animation: bannermove 10s linear infinite;
+  animation: bannermove 10s linear infinite; }
+
+@keyframes "bannermove" {
+  0% {
+    margin-left: 0px; }
+  100% {
+    margin-left: -1600px; } }
+
+@-moz-keyframes bannermove {
+  0% {
+    margin-left: 400px; }
+  100% {
+    margin-left: -2300px; } }
+
+@-webkit-keyframes "bannermove" {
+  0% {
+    margin-left: -300px; }
+  100% {
+    margin-left: -2440px; } }
+
+@-ms-keyframes "bannermove" {
+  0% {
+    margin-left: 0px; }
+  100% {
+    margin-left: -2300px; } }
+
+@-o-keyframes "bannermove" {
+  0% {
+    margin-left: 0px; }
+  100% {
+    margin-left: -2300px; } }

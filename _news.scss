@@ -1,0 +1,104 @@
+
+.news {
+  width: 100%;
+  font-size: 1vmax;
+  margin-bottom: 1vmax;
+  color: $header-color;
+
+  aside {
+    display: inline-block;
+    background-color: white;
+    width: 32%;
+    text-align: left;
+    box-shadow: 0px 0px 4px 0px grey;
+
+    div {
+      width: 85%;
+      margin: auto;
+      font-size: 1.1vmax; }
+    }
+  }
+
+
+
+.article1 {
+  float: left;
+  width: 100%;
+  display: inline-block;
+
+  h1 {
+    font-size: 1.6vmax;
+    color: $header-color;
+    margin-bottom: 1.6vmax;
+
+    h4 {
+      color: $header-color; }
+    }
+  }
+
+
+.text {
+  margin: 5%;
+
+  p {
+    max-height: 100px;
+    overflow: scroll;
+    line-height: 2vmax; }
+  }
+
+
+.read-more-containter {
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+  position: relative;
+  margin: 5%; }
+
+.read-more {
+  color: $powell-red;
+  font-size: 1.5vmax;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 5%;
+
+  a {
+    color: $powell-red;
+    text-decoration: none; }
+  }
+
+
+.article2 {
+  width: 100%;
+  display: inline-block;
+
+
+  h1 {
+    font-size: 1.6vmax;
+    color: $header-color; }
+
+  h4 {
+    color: $header-color; }
+
+  }
+
+
+.article3 {
+  float: right;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+
+  h1 {
+    font-size: 1.6vmax;
+    color: $header-color;
+    margin-bottom: 3.45vmax; }
+
+    h4 {
+      color: $header-color; }
+
+  }
