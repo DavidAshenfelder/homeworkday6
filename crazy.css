@@ -30,11 +30,10 @@ div {
   text-align: center;
   overflow: hidden; }
 
-ul li {
-  list-style-type: none; }
-
 ul {
   list-style-type: none; }
+  ul li {
+    list-style-type: none; }
 
 .top-page {
   float: right;
@@ -221,7 +220,6 @@ opacity: .5;
 
 .article1 {
   float: left;
-  box-shadow: 0px 0px 3px 0px solid grey;
   width: 100%;
   display: inline-block; }
   .article1 h1 {
@@ -246,7 +244,7 @@ opacity: .5;
   margin: 5%; }
 
 .read-more {
-  color: red;
+  color: #B80000;
   font-size: 1.5vmax;
   text-align: center;
   width: 100%;
@@ -257,7 +255,7 @@ opacity: .5;
   margin: 0;
   margin-bottom: 5%; }
   .read-more a {
-    color: red;
+    color: #B80000;
     text-decoration: none; }
 
 .article2 {
@@ -531,44 +529,44 @@ opacity: .5;
     width: 100%;
     font-size: 1vmax;
     margin-right: 0 auto; }
-  .socialMedia ul {
-    display: inline-block;
-    width: 100%;
-    float: none;
-    text-align: center;
-    font-size: 3vmax; }
-  .socialMedia li {
-    font-size: 7vmax; }
-  .socialMedia li:hover {
-    font-size: 7vmax; }
   .socialMedia {
     width: 100%;
     float: none;
     margin: 0 auto;
     text-align: center; }
-  .subscribe p {
-    width: 100%;
-    float: none;
-    text-align: center; }
-  .subscribe a {
-    font-size: 3vmax; }
+    .socialMedia ul {
+      display: inline-block;
+      width: 100%;
+      float: none;
+      text-align: center;
+      font-size: 3vmax; }
+      .socialMedia ul li {
+        font-size: 7vmax; }
+      .socialMedia ulli:hover {
+        font-size: 7vmax; }
   .subscribe {
     width: 100%;
     float: none;
     margin: 0 auto; }
-  .navBar ul li {
-    width: 100%;
-    display: inline-block;
-    text-align: center;
-    color: white;
-    font-size: 3vmax;
-    opacity: 1;
-    margin: 1%; }
+    .subscribe p {
+      width: 100%;
+      float: none;
+      text-align: center; }
+      .subscribe p a {
+        font-size: 3vmax; }
   .navBar {
     height: 100%; }
-  .navBar li:hover {
-    font-weight: normal;
-    font-size: 3vmax; }
+    .navBar .navBar ul li {
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+      color: white;
+      font-size: 3vmax;
+      opacity: 1;
+      margin: 1%; }
+      .navBar .navBar ul lili:hover {
+        font-weight: normal;
+        font-size: 3vmax; }
   .page-wrapper {
     width: 90%; }
   .grid {
@@ -590,43 +588,43 @@ opacity: .5;
     float: none;
     font-size: 5vmax;
     margin: 2%; }
-  .article1 p {
-    font-size: 2vmax;
-    text-align: center; }
-  .article1 h1 {
-    font-size: 4vmax;
-    text-align: center; }
-  .article1 h4 {
-    font-size: 2vmax;
-    text-align: center; }
+    .article1 p {
+      font-size: 2vmax;
+      text-align: center; }
+    .article1 h1 {
+      font-size: 4vmax;
+      text-align: center; }
+    .article1 h4 {
+      font-size: 2vmax;
+      text-align: center; }
   .article2 {
     display: inline-block;
     width: 100%;
     float: none;
     margin: 2%; }
-  .article2 p {
-    font-size: 2vmax;
-    text-align: center; }
-  .article2 h1 {
-    font-size: 4vmax;
-    text-align: center; }
-  .article2 h4 {
-    font-size: 2vmax;
-    text-align: center; }
+    .article2 p {
+      font-size: 2vmax;
+      text-align: center; }
+    .article2 h1 {
+      font-size: 4vmax;
+      text-align: center; }
+    .article2 h4 {
+      font-size: 2vmax;
+      text-align: center; }
   .article3 {
     display: inline-block;
     float: none;
     width: 100%;
     margin: 2%; }
-  .article3 p {
-    font-size: 2vmax;
-    text-align: center; }
-  .article3 h1 {
-    font-size: 4vmax;
-    text-align: center; }
-  .article3 h4 {
-    font-size: 2vmax;
-    text-align: center; }
+    .article3 p {
+      font-size: 2vmax;
+      text-align: center; }
+    .article3 h1 {
+      font-size: 4vmax;
+      text-align: center; }
+    .article3 h4 {
+      font-size: 2vmax;
+      text-align: center; }
   .bio-blocks {
     display: inline-block;
     margin-top: 3vmax;
@@ -656,9 +654,9 @@ opacity: .5;
     justify-content: none;
     align-items: none;
     margin-bottom: 1%; }
-  .lance p {
-    font-size: 4.7vmax;
-    text-align: center; }
+    .lance p {
+      font-size: 4.7vmax;
+      text-align: center; }
   .rodney {
     background-size: 100%;
     background-position: 0px -50px;
@@ -667,30 +665,30 @@ opacity: .5;
     border: 3px solid white;
     float: none;
     margin-bottom: 1%; }
-  .rodney-background {
-    border: none; }
-  .rodney p {
-    font-size: 4.7vmax; }
+    .rodney .rodney-background {
+      border: none; }
+    .rodney p {
+      font-size: 4.7vmax; }
   .steve {
     background-size: 100%;
     background-position: 0px -100px;
     width: 100%;
     border: 3px solid white;
     margin-bottom: 1%; }
-  .steve-background {
-    border: none; }
-  .steve p {
-    font-size: 4.7vmax; }
+    .steve .steve-background {
+      border: none; }
+    .steve p {
+      font-size: 4.7vmax; }
   .tommy {
     background-size: 100%;
     border: 3px solid white;
     float: right;
     height: auto;
     width: 100%; }
-  .center-tommy {
-    border: none; }
-  .tommy p {
-    font-size: 4.7vmax; }
+    .tommy .center-tommy {
+      border: none; }
+    .tommy p {
+      font-size: 4.7vmax; }
   .skate-boards {
     margin: 0 auto; }
   .contact-us {
@@ -709,16 +707,15 @@ opacity: .5;
     width: 80%;
     height: 100%;
     background-color: white; }
-  .contact-us-par p ul li {
-    font-size: 6vmax; }
-  .contact-us-par h1 {
-    font-size: 4vmax; }
-  .contact-us-par p {
-    line-height: 3vmax;
-    color: grey; }
-  .contact-us-par ul li {
-    display: inline-block;
-    font-size: 4vmax; }
+    .contact-us-par li {
+      font-size: 6vmax;
+      display: inline-block;
+      font-size: 4vmax; }
+    .contact-us-par h1 {
+      font-size: 4vmax; }
+    .contact-us-par p {
+      line-height: 3vmax;
+      color: grey; }
   .email-form {
     float: none;
     width: 80%;
@@ -728,13 +725,13 @@ opacity: .5;
     align-items: left;
     justify-content: center;
     font-size: 3vmax; }
-  .email-form div {
-    width: 100%;
-    height: auto;
-    text-align: left; }
-  .email-form p {
-    width: 80%;
-    text-align: left; }
+    .email-form div {
+      width: 100%;
+      height: auto;
+      text-align: left; }
+    .email-form p {
+      width: 80%;
+      text-align: left; }
   .name p {
     height: 4vmax;
     text-align: left; }
