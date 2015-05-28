@@ -1,4 +1,3 @@
-
 html {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(assets/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -20,7 +19,6 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 
 body {
   width:100%;
@@ -383,15 +381,9 @@ ul {
   text-decoration: none;
 }
 
-.read-more a .text p :target {
-  overflow: visible;
-  display: block;
-}
-
 
 
 .article2 {
-  border-bottom: 3px solid grey;
   width: 100%;
   display: inline-block;
 }
@@ -407,7 +399,6 @@ ul {
 
 .article3  {
   float: right;
-  border-bottom: 3px solid grey;
   width: 100%;
   height: 100%;
   display: inline-block;
@@ -568,13 +559,7 @@ color: white;
 
 }
 
-.skate-boards img:hover {
-  width:
 
-}
-
-
-* (margin:0; padding:0;)
 
 .photo-banner {
   height: 233px;
